@@ -1,9 +1,9 @@
-import React from 'react'
+import { Hero } from "./components/hero/Hero";
 
 export default function App() {
   return (
-    <h1 className="text-2xl font-bold underline">
-      Hello world!
-    </h1>
+    <main className='bg-[#0d182e]'>
+      <Hero />
+    </main>
   )
 }
