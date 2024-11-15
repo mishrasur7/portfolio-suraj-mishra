@@ -1,5 +1,6 @@
 import Navbar from "../navbar/Navbar"
 import CV from '../../assets/CV_mishra_suraj.pdf'
+import suraj_image from '../../assets/suraj.jpg'
 
 export const Hero = () => {
   return (
@@ -22,8 +23,11 @@ export const Hero = () => {
                             Download CV
                         </button>
                     </a>
-
                 </div>
+            </div>
+            <div className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6'>
+                <img src={suraj_image} alt='suraj_image' className='object-cover object-center rounded-full w-80 h-80'/>
+
             </div>
 
         </div>
