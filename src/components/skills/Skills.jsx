@@ -12,6 +12,11 @@ const Skills = () => {
                 className='sm:text-4xl text-2xl font-medium title-font mb-2 text-white'>
                     Skills
                 </h1>
+                <p
+                data-aos='fade-right'
+                data-aos-delay='500' 
+                className='leading-relaxed text-base'>
+                </p>
 
             </div>
 
