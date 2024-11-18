@@ -1,3 +1,7 @@
+import js from '../../assets/JavaScript-logo.png'
+import ts from '../../assets/Typescript_logo.png'
+import java from '../../assets/java.svg'
+import react from '../../assets/React-icon.png'
 
 const Skills = () => {
   return (
@@ -27,7 +31,16 @@ const Skills = () => {
             <div data-aos='fade-right' data-aos-delay='500' className='flex flex-col md:w-1/2 md:pl-12'>
               <nav className='flex flex-wrap list-none -mb-1'>
                 <li className='lg:w-1/3 mb-4 w-1/2'>
-                  <img src={} alt='javascript' className='rounded-full w-24 h-24 object-cover'/>
+                  <img src={js} alt='javascript' className='rounded-full w-24 h-24 object-cover'/>
+                </li>
+                <li className='lg:w-1/3 mb-4 w-1/2'>
+                  <img src={ts} alt='javascript' className='rounded-full w-24 h-24 object-cover'/>
+                </li>
+                <li className='lg:w-1/3 mb-4 w-1/2'>
+                  <img src={java} alt='javascript' className='rounded-full w-24 h-24 object-cover'/>
+                </li>
+                <li className='lg:w-1/3 mb-4 w-1/2'>
+                  <img src={react} alt='javascript' className='rounded-full w-24 h-24 object-cover'/>
                 </li>
               </nav>
             </div>
