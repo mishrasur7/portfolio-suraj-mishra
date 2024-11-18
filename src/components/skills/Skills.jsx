@@ -44,9 +44,7 @@ const Skills = () => {
                 </li>
               </nav>
             </div>
-
         </div>
-
     </section>
   )
 }
