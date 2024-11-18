@@ -1,3 +1,4 @@
+
 const Skills = () => {
   return (
     <section id='skills' className='relative overflow-hidden flex flex-col text-white body-font'>
@@ -16,8 +17,19 @@ const Skills = () => {
                 data-aos='fade-right'
                 data-aos-delay='500' 
                 className='leading-relaxed text-base'>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis molestias 
+                  exercitationem earum officia aliquam eaque quos sit optio, harum, minima unde quidem? 
+                  Illum cumque tenetur corrupti. Quas neque accusantium est rerum reprehenderit id atque 
+                  fugiat aliquid inventore perferendis aperiam sunt veniam, voluptas sit distinctio 
+                  aliquam facilis earum assumenda dolorum repellendus!
                 </p>
-
+            </div>
+            <div data-aos='fade-right' data-aos-delay='500' className='flex flex-col md:w-1/2 md:pl-12'>
+              <nav className='flex flex-wrap list-none -mb-1'>
+                <li className='lg:w-1/3 mb-4 w-1/2'>
+                  <img src={} alt='javascript' className='rounded-full w-24 h-24 object-cover'/>
+                </li>
+              </nav>
             </div>
 
         </div>
