@@ -3,6 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'
 import { Hero } from "./components/hero/Hero"; 
 import Skills from "./components/skills/Skills";
+import Experience from "./components/experience/Experience";
 
 export default function App() {
 
@@ -16,6 +17,7 @@ export default function App() {
     <main className='bg-[#0d182e]'>
       <Hero />
       <Skills />
+      <Experience />
     </main>
   )
 }
