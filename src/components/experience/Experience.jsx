@@ -1,4 +1,4 @@
-import experience from '../../assets/experience.webp'
+import experience from '../../assets/experience.jpg'
 
 const Experience = () => {
   return (
