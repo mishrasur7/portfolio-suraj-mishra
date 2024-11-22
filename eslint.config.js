@@ -4,8 +4,9 @@ import react from 'eslint-plugin-react'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
 
-export default [
-  { ignores: ['dist'] },
+export default [{
+    ignores: ['dist']
+  },
   {
     files: ['**/*.{js,jsx}'],
     languageOptions: {
@@ -13,11 +14,17 @@ export default [
       globals: globals.browser,
       parserOptions: {
         ecmaVersion: 'latest',
-        ecmaFeatures: { jsx: true },
+        ecmaFeatures: {
+          jsx: true
+        },
         sourceType: 'module',
       },
     },
-    settings: { react: { version: '18.3' } },
+    settings: {
+      react: {
+        version: '18.3'
+      }
+    },
     plugins: {
       react,
       'react-hooks': reactHooks,
@@ -31,7 +38,9 @@ export default [
       'react/jsx-no-target-blank': 'off',
       'react-refresh/only-export-components': [
         'warn',
-        { allowConstantExport: true },
+        {
+          allowConstantExport: true
+        },
       ],
     },
   },
