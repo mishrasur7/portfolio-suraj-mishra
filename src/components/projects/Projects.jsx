@@ -1,4 +1,3 @@
-import Slider from "react-slick";
 
 const Projects = () => {
   const projectsList = [
