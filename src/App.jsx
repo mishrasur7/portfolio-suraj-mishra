@@ -1,10 +1,8 @@
 import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css'
-import Skills from "./components/skills/Skills";
-import Experience from "./components/experience/Experience";
-import Projects from "./components/projects/Projects";
 import Navbar from "./components/navbar/Navbar";
+import Home from "./components/home/Home";
 
 export default function App() {
 
@@ -17,9 +15,7 @@ export default function App() {
   return (
     <main>
       <Navbar />
-      <Skills />
-      <Experience />
-      <Projects />
+      <Home />
     </main>
   )
 }

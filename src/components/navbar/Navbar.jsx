@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <header className= 'bg-gray-50 border-b-2 fixed top-0 left-0 w-full z-10'>
-        <div className='container mx-auto flex flex-wrap justify-between p-5 items-center font-thin text-blue-500'>
+        <div className='container mx-auto flex flex-wrap justify-between p-5 items-center font-thin text-[#6A98F0]'>
             <a href="#" className='font-mono hover:font-bold hover:text-xl'>&lt;SurajMishra/&gt;</a>
             <nav className= 'flex flex-wrap gap-10'>
                 {
