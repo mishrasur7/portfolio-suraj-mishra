@@ -4,7 +4,6 @@ const Navbar = () => {
         {name: 'about me', link: '#about'},
         {name: 'projects', link: '#projects'},
         {name: 'experience', link: '#experience'},
-        {name: 'blogs', link: '#blogs'},
         {name: 'contact', link: '#contact'},
     ]; 
 

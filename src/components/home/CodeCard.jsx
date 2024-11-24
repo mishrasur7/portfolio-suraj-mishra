@@ -20,7 +20,7 @@ const CodeCard = () => {
   };
 
   return (
-    <section className='text-[#6A98F0] text-xs leading-6  p-4 border-[#6A98F0] rounded-xl border-b-8 border-l-8'>
+    <section className='text-[#6A98F0] text-xs font-thin leading-6  p-4 border-[#6D83F2] rounded-xl border-b-8 border-l-8'>
       <pre>
         1&nbsp;&nbsp;class <b>Human</b> {'{'}
       </pre>
@@ -35,6 +35,12 @@ const CodeCard = () => {
         4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.traits = [&quot;<b>DEV</b>&quot;, &quot;<b>COOKING</b>&quot; &quot;<b>HIKING</b>&quot;];
       </pre>
       <pre onClick={changeText}>5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.age = {text}</pre>
+      <pre>
+        4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.birthPlace = &quot;<b>Nepal</b>&quot;;
+      </pre>
+       <pre>
+        4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.currentPlace = &quot;<b>Finland</b>&quot;;
+      </pre>
       <pre>6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {'}'}</pre>
       <pre>7&nbsp;&nbsp;{'}'}</pre>
     </section>
