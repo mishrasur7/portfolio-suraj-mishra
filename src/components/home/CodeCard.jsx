@@ -20,7 +20,7 @@ const CodeCard = () => {
   };
 
   return (
-    <section className='text-[#6A98F0] text-xs font-thin leading-6  p-4 border-[#6D83F2] rounded-xl border-b-8 border-l-8'>
+    <section className='text-[#6A98F0] text-xs font-thin leading-6  p-4 border-[#6D83F2] rounded-xl border-b-2 border-l-2'>
       <pre>
         1&nbsp;&nbsp;class <b>Human</b> {'{'}
       </pre>
