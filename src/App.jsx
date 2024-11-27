@@ -3,6 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
+import AboutMe from "./components/about/AboutMe";
 
 export default function App() {
 
@@ -16,6 +17,7 @@ export default function App() {
     <main>
       <Navbar />
       <Home />
+      <AboutMe />
     </main>
   )
 }

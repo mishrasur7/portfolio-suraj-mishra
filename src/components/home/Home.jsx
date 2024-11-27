@@ -4,8 +4,8 @@ import resume from '../../assets/CV_mishra_suraj.pdf'
 
 const Home = () => {
   return (
-    <section className='flex flex-col gap-20 mt-44 ml-6 sm:flex-row sm:ml-20 sm:place-content-around'>
-        <section className='leading-10 p-4'>
+    <section className='flex flex-col gap-10 mt-44 ml-4 sm:flex-row sm:mx-10 sm:place-content-around'>
+        <section className='leading-10'>
             <div>
                 <p className='font-mono'>Hello, I&apos;m</p>
                 <p className='text-5xl font-black'>Suraj Mishra</p>
