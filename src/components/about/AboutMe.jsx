@@ -3,7 +3,7 @@ import image from '../../assets/suraj.jpg';
 const AboutMe = () => {
   return (
     <div className='mt-24'>
-        <h1 className='text-2xl text-center text-[#6D83F2] font-mono mb-10'>About me</h1>
+        <h1 className='text-2xl text-center text-[#6D83F2] font-mono mb-10 '>About me</h1>
     <section className= 'flex flex-col gap-10 mx-4 rounded-xl p-4 sm:flex-row sm:place-content-around bg-gradient-to-r from-sky-500 via-blue-300 to-yellow-200'>
         <div className='h-96 w-96 flex items-center justify-center'>
             <img src={image} alt='suraj' className='h-96 w-96' />
