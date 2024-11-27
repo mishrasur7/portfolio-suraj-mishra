@@ -4,7 +4,7 @@ import resume from '../../assets/CV_mishra_suraj.pdf'
 
 const Home = () => {
   return (
-    <section className='flex flex-col gap-10 mt-44 ml-4 sm:flex-row sm:mx-10 sm:place-content-around'>
+    <section id='home' className='flex flex-col gap-10 mt-44 ml-4 sm:flex-row sm:mx-10 sm:place-content-around scroll-m-20'>
         <section className='leading-10'>
             <div>
                 <p className='font-mono'>Hello, I&apos;m</p>
