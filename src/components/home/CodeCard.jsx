@@ -1,23 +1,23 @@
-import { useState } from "react";
+// import { useState } from "react";
 
-const repeatString = (str, count) => {
-  let maxCount = str.length * count;
-  count = Math.floor(Math.log(count) / Math.log(2));
-  while (count) {
-    str += str;
-    count--;
-  }
-  str += str.substring(0, maxCount - str.length);
-  return str;
-}
+// const repeatString = (str, count) => {
+//   let maxCount = str.length * count;
+//   count = Math.floor(Math.log(count) / Math.log(2));
+//   while (count) {
+//     str += str;
+//     count--;
+//   }
+//   str += str.substring(0, maxCount - str.length);
+//   return str;
+// }
 
 const CodeCard = () => {
-  const [text, setText] = useState(`new Date().getFullYear() - 1991;`);
-  const age = new Date().getFullYear() - 1991;
-  const changeText = () => {
-    let space = repeatString(' ', 54);
-    setText(age + ';' + space);
-  };
+  // const [text, setText] = useState(`new Date().getFullYear() - 1991;`);
+  // const age = new Date().getFullYear() - 1991;
+  // const changeText = () => {
+  //   let space = repeatString(' ', 54);
+  //   setText(age + ';' + space);
+  // };
 
   return (
     <section className='text-[#6A98F0] text-xs font-thin leading-6  p-4 border-[#6D83F2] rounded-xl border-b-2 border-l-2 '>
@@ -34,7 +34,6 @@ const CodeCard = () => {
       <pre>
         4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.traits = [&quot;<b>DEV</b>&quot;, &quot;<b>COOKING</b>&quot; &quot;<b>HIKING</b>&quot;];
       </pre>
-      <pre onClick={changeText}>5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.age = {text}</pre>
       <pre>
         4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.birthPlace = &quot;<b>Nepal</b>&quot;;
       </pre>
