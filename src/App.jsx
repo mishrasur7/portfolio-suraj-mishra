@@ -4,6 +4,7 @@ import 'aos/dist/aos.css'
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
 import AboutMe from "./components/about/AboutMe";
+import Projects from "./components/projects/Projects";
 
 export default function App() {
 
@@ -18,6 +19,7 @@ export default function App() {
       <Navbar />
       <Home />
       <AboutMe />
+      <Projects />
     </main>
   )
 }
