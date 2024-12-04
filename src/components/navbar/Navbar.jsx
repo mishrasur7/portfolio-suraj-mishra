@@ -2,6 +2,7 @@ const Navbar = () => {
     const navBarList = [
         {name: 'home', link: '#home'},
         {name: 'about', link: '#about'},
+        {name: 'skills', link: '#skills'},
         {name: 'projects', link: '#projects'},
         {name: 'experience', link: '#experience'},
         {name: 'contact', link: '#contact'},
