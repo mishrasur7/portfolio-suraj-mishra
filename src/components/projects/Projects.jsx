@@ -50,6 +50,10 @@ const Projects = () => {
               <div className='text-white mt-5'>
                 <h3 className='text-xl font-bold'>{project.title}</h3>
                 <p>{project.description}</p>
+                <div className='flex flex-row justify-around pt-5'>
+                  <button>Visit GitHub</button>
+                  <button>Live Demo</button>
+                </div>
               </div>
             </div>
           )
