@@ -45,9 +45,9 @@ const Projects = () => {
       <section className='mx-4 flex flex-wrap gap-10 justify-evenly sm:flex-row '>
         {projectsList.map((project) => {
           return (
-            <div key={project.id} className='p-10 bg-[#000000] hover:bg-yellow-500 hover:cursor-pointer rounded-xl'>
-              <img src={project.image} alt={project.title} className='w-72 h-48'/>
-              <div className='text-white mt-5'>
+            <div key={project.id} className='p-10 border-solid border-[#6D83F2] border-b-2 border-l-2 hover:cursor-pointer rounded-xl'>
+              <img src={project.image} alt={project.title} className='w-96 h-48'/>
+              <div className='text-[#6D83F2] mt-5'>
                 <h3 className='text-xl font-bold'>{project.title}</h3>
                 <p>{project.description}</p>
                 <div className='flex flex-row justify-around pt-5'>
