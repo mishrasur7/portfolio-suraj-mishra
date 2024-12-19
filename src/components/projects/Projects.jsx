@@ -32,12 +32,6 @@ const Projects = () => {
       title: 'Softala Project', 
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.'
     },
-     {
-      id: 1, 
-      image: siba, 
-      title: 'Softala Project', 
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.'
-    },
   ]
   return (
     <div id='projects' className='mt-24 scroll-m-20'>
