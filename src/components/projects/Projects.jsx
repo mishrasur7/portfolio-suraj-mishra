@@ -10,7 +10,7 @@ const Projects = () => {
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
       techStack: ['JavaScript', 'TypeScript', 'React', 'Material UI', 'Node.js', 'Express', 'MySQL'],
       liveLink: '',
-      github: ''
+      github: ['https://github.com/haagahelia/Siba_be', 'https://github.com/haagahelia/siba-fe']
 
     },
     {
@@ -18,30 +18,36 @@ const Projects = () => {
       image: saas, 
       title: 'SAAS project', 
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
-      techStack: ['HTML', 'SCSS']
+      techStack: ['HTML', 'SCSS'],
+      liveLink: 'https://strong-souffle-17c7a0.netlify.app/',
+      github: ['https://github.com/mishrasur7/fs11-SASS/tree/sass']
     },
     {
       id: 1, 
       image: siba, 
       title: 'Softala Project', 
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
-      techStack: ['JavaScript', 'TypeScript', 'React', 'Material UI', 'Node.js', 'Express', 'MySQL']
+      techStack: ['JavaScript', 'TypeScript', 'React', 'Material UI', 'Node.js', 'Express', 'MySQL'],
+      liveLink: 'https://strong-souffle-17c7a0.netlify.app/',
+      github: ['https://github.com/mishrasur7/fs11-SASS/tree/sass']
     },
      {
       id: 1, 
       image: siba, 
       title: 'Softala Project', 
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
-      techStack: ['JavaScript', 'TypeScript', 'React', 'Material UI', 'Node.js', 'Express', 'MySQL']
-
+      techStack: ['JavaScript', 'TypeScript', 'React', 'Material UI', 'Node.js', 'Express', 'MySQL'],
+      liveLink: 'https://strong-souffle-17c7a0.netlify.app/',
+      github: ['https://github.com/mishrasur7/fs11-SASS/tree/sass']
     },
     {
       id: 1, 
       image: siba, 
       title: 'Softala Project', 
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
-      techStack: ['JavaScript', 'TypeScript', 'React', 'Material UI', 'Node.js', 'Express', 'MySQL']
-
+      techStack: ['JavaScript', 'TypeScript', 'React', 'Material UI', 'Node.js', 'Express', 'MySQL'],
+      liveLink: 'https://strong-souffle-17c7a0.netlify.app/',
+      github: ['https://github.com/mishrasur7/fs11-SASS/tree/sass']
     },
   ]
   return (
@@ -59,8 +65,8 @@ const Projects = () => {
                   <p><b>Tech Stack: </b>{project.techStack.map(tech => <span key={project.id}>{tech} | </span>)}</p>
                 </div>
                 <div className='flex flex-row justify-around pt-5'>
-                  <button>Code</button>
-                  <button>Demo</button>
+                  <a href={project.github.map((link) => link)}><button>Code</button></a>
+                  <a><button>Demo</button></a>
                 </div>
               </div>
             </div>
