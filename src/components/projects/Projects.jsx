@@ -1,51 +1,34 @@
 import siba from '../../assets/siba_login_view.png'
 import saas from '../../assets/saas.png'
+import trainers_house from '../../assets/trainers_house.png'
 
 const Projects = () => {
   const projectsList = [
     {
       id: 1, 
       image: siba, 
-      title: 'Softala Project', 
+      title: 'Softala', 
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
       techStack: ['JavaScript', 'TypeScript', 'React', 'Material UI', 'Node.js', 'Express', 'MySQL'],
-      liveLink: '',
-      github: ['https://github.com/haagahelia/Siba_be', 'https://github.com/haagahelia/siba-fe']
+      liveLink: 'https://github.com/haagahelia/siba-fe',
+      github: ['https://github.com/haagahelia/Siba_be']
 
     },
     {
       id: 2, 
-      image: saas, 
-      title: 'SAAS project', 
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
-      techStack: ['HTML', 'SCSS'],
-      liveLink: 'https://strong-souffle-17c7a0.netlify.app/',
-      github: ['https://github.com/mishrasur7/fs11-SASS/tree/sass']
-    },
-    {
-      id: 1, 
-      image: siba, 
-      title: 'Softala Project', 
+      image: trainers_house, 
+      title: 'Trainers House', 
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
       techStack: ['JavaScript', 'TypeScript', 'React', 'Material UI', 'Node.js', 'Express', 'MySQL'],
-      liveLink: 'https://strong-souffle-17c7a0.netlify.app/',
-      github: ['https://github.com/mishrasur7/fs11-SASS/tree/sass']
+      liveLink: 'https://master--tranquil-raindrop-eaf7a3.netlify.app/',
+      github: ['https://github.com/mishrasur7/trainers-house?tab=readme-ov-file']
     },
      {
-      id: 1, 
-      image: siba, 
-      title: 'Softala Project', 
+      id: 3, 
+      image: saas, 
+      title: 'SAAS Project', 
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
-      techStack: ['JavaScript', 'TypeScript', 'React', 'Material UI', 'Node.js', 'Express', 'MySQL'],
-      liveLink: 'https://strong-souffle-17c7a0.netlify.app/',
-      github: ['https://github.com/mishrasur7/fs11-SASS/tree/sass']
-    },
-    {
-      id: 1, 
-      image: siba, 
-      title: 'Softala Project', 
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
-      techStack: ['JavaScript', 'TypeScript', 'React', 'Material UI', 'Node.js', 'Express', 'MySQL'],
+      techStack: ['HTML', 'SCSS'],
       liveLink: 'https://strong-souffle-17c7a0.netlify.app/',
       github: ['https://github.com/mishrasur7/fs11-SASS/tree/sass']
     },
@@ -65,16 +48,20 @@ const Projects = () => {
             onClick={() => handleClick(project.liveLink)}
             key={project.id} 
             className='flex-initial w-96 p-7 border-solid border-[#6D83F2] border-b-2 border-l-2 hover:cursor-pointer rounded-xl'>
-              <img src={project.image} alt={project.title} className='w-72 h-40'/>
+              <img src={project.image} alt={project.title} className='w-72 h-36'/>
               <div className='text-[#6D83F2] mt-5'>
                 <h3 className='text-xl font-bold'>{project.title}</h3>
                 <p>{project.description}</p>
                 <div className='mt-5'>
                   <p><b>Tech Stack: </b>{project.techStack.map(tech => <span key={project.id}>{tech} | </span>)}</p>
                 </div>
-                <div className='flex flex-row justify-around pt-5'>
-                  <a href={project.github.map((link) => link)}><button>Code</button></a>
-                  <a><button>Demo</button></a>
+                <div className='flex flex-row justify-around mt-5'>
+                  <a href={project.github.map((link) => link)} target='_blank'>
+                    <button className='bg-[#6D83F2] text-white px-6 py-2 rounded-xl font-mono text-sm'>Source Code</button>
+                  </a>
+                  <a href={project.liveLink} target='_blank'>
+                    <button className='bg-[#6D83F2] text-white px-6 py-2 rounded-xl font-mono text-sm'>Live</button>
+                  </a>
                 </div>
               </div>
             </div>
