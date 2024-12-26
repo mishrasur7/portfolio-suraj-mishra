@@ -8,6 +8,8 @@ import Projects from "./components/projects/Projects";
 import Skills from "./components/skills/Skills";
 import Experience from "./components/experience/Experience";
 import Education from "./components/education/Education";
+import Footer from "./components/footer/Footer";
+import Contact from "./components/contact/Contact";
 
 export default function App() {
 
@@ -26,6 +28,8 @@ export default function App() {
       <Education />
       <Projects />
       <Experience />
+      <Contact />
+      <Footer />
     </main>
   )
 }
