@@ -7,6 +7,7 @@ import AboutMe from "./components/about/AboutMe";
 import Projects from "./components/projects/Projects";
 import Skills from "./components/skills/Skills";
 import Experience from "./components/experience/Experience";
+import Education from "./components/education/Education";
 
 export default function App() {
 
@@ -22,6 +23,7 @@ export default function App() {
       <Home />
       <AboutMe />
       <Skills />
+      <Education />
       <Projects />
       <Experience />
     </main>

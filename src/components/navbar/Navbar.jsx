@@ -3,6 +3,7 @@ const Navbar = () => {
         {name: 'home', link: '#home'},
         {name: 'about', link: '#about'},
         {name: 'skills', link: '#skills'},
+        {name: 'education', link: '#education'},
         {name: 'projects', link: '#projects'},
         {name: 'experience', link: '#experience'},
         {name: 'contact', link: '#contact'},
