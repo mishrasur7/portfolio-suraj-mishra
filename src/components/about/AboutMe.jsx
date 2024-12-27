@@ -8,7 +8,9 @@ const AboutMe = () => {
         <div className='h-96 w-96 flex items-center justify-center'>
             <img src={image} alt='suraj' className='h-96 w-96' />
         </div>
-        <div className='flex flex-initial sm:w-[500px] items-center justify-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium velit molestiae laborum aspernatur, mollitia modi? Autem tenetur culpa quam debitis inventore doloremque provident sapiente minima maxime rerum quaerat dolores dolorem officia vel deleniti, dolorum possimus asperiores officiis reiciendis enim? Quis, iusto at. Voluptas soluta quis consequuntur, dignissimos accusamus expedita iure dolores laudantium! Dolore sapiente tenetur esse molestiae rerum vero mollitia sunt iusto eligendi obcaecati, ab animi sequi impedit sed ad, dolores assumenda autem veniam soluta nam repellat. Doloribus voluptates error laborum eligendi consequuntur! Hic possimus, ipsam fuga illum asperiores optio saepe officia quos in, quod fugiat nam obcaecati. Sunt, nihil.</div>
+        <div className='flex flex-initial sm:w-[500px] items-center justify-center'>
+          <p>I spent my early 16 years of my life in rural village of Nepal, where I completed my school level education. That time was totally different if we compare it now. We had no computers, no telephones, no electricity, no motor vehicles. Life was fully organic and natural.</p>
+        </div>
     </section>
     </div>
   )
