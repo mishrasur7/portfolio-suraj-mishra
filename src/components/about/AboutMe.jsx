@@ -9,7 +9,9 @@ const AboutMe = () => {
             <img src={image} alt='suraj' className='h-96 w-96' />
         </div>
         <div className='flex flex-initial sm:w-[500px] items-center justify-center'>
-          <p>I spent my early 16 years of my life in rural village of Nepal, where I completed my school level education. That time was totally different if we compare it now. We had no computers, no telephones, no electricity, no motor vehicles. Life was fully organic and natural.</p>
+          <p>I spent my early 16 years of my life in rural village of Nepal, where I completed my school level education. That time was totally different if we compare it now. We had no computers, no telephones, no electricity, no motor vehicles. 
+            Life was fully organic and natural. I saw computer for the first time when I moved to capital city Kathmandu for higher secondory education. When I arrived in Finland, I had very little knowledge about computer. 
+          </p>
         </div>
     </section>
     </div>
