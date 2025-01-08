@@ -27,9 +27,9 @@ const AboutMe = () => {
             This time, I really enjoyed what I chose to study. I liked programming, web application development, and databases. I graduated in June 2024 with Lauri Fontell Scholorship for excellent academic performance. Currently, I am learning Python at Taitotalo.
           </p>
           <br />
-          <p>Software development is the field where I want to grow technically and professionally. 
-            It gives me both happiness and satisfaction. 
-          </p>
+          <b>Software development is the field where I want to grow technically and professionally. 
+            It gives me both happiness and satisfaction. This is the area where I can contribute something meaningful to people and society. 
+          </b>
         </div>
     </section>
     </div>
