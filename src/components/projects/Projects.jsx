@@ -8,7 +8,7 @@ const Projects = () => {
       id: 1, 
       image: siba, 
       title: 'Softala', 
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
+      description: 'Software project for Sibelius Academy developed at Haaga-Helia',
       techStack: ['JavaScript', 'TypeScript', 'React', 'Material UI', 'Node.js', 'Express', 'MySQL'],
       liveLink: 'https://github.com/haagahelia/siba-fe',
       github: ['https://github.com/haagahelia/Siba_be']
@@ -18,7 +18,7 @@ const Projects = () => {
       id: 2, 
       image: trainers_house, 
       title: 'Trainers House', 
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
+      description: 'Final project for Front-end Development course at Haaga-Helia',
       techStack: ['JavaScript', 'TypeScript', 'React', 'Material UI', 'Node.js', 'Express', 'MySQL'],
       liveLink: 'https://master--tranquil-raindrop-eaf7a3.netlify.app/',
       github: ['https://github.com/mishrasur7/trainers-house?tab=readme-ov-file']
@@ -27,7 +27,7 @@ const Projects = () => {
       id: 3, 
       image: saas, 
       title: 'SAAS Project', 
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
+      description: 'A practice project for animation and SAAS style.',
       techStack: ['HTML', 'SCSS'],
       liveLink: 'https://strong-souffle-17c7a0.netlify.app/',
       github: ['https://github.com/mishrasur7/fs11-SASS/tree/sass']
