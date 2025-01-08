@@ -2,7 +2,7 @@
 const Experience = () => {
   return (
     <div id='experience' className='mt-24 scroll-m-20'>
-        <h1 className='text-2xl text-center text-[#6D83F2] font-mono mb-10 '>Experience</h1>
+        <h1 className='text-2xl text-center text-[#6D83F2] font-mono mb-10 '>Work Experience</h1>
          <ol className='border-l-2 mx-4 sm:mx-48'>
           {/* <!--First item--> */}
           <li>
