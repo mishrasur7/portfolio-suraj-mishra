@@ -8,9 +8,27 @@ const AboutMe = () => {
         <div className='h-96 w-96 flex items-center justify-center'>
             <img src={image} alt='suraj' className='h-96 w-96' />
         </div>
-        <div className='flex flex-initial sm:w-[500px] items-center justify-center'>
+        <div className='sm:w-[500px] items-center justify-center italic'>
           <p>I spent my early 16 years of my life in rural village of Nepal, where I completed my school level education. That time was totally different if we compare it now. We had no computers, no telephones, no electricity, no motor vehicles. 
-            Life was fully organic and natural. I saw computer for the first time when I moved to capital city Kathmandu for higher secondory education. When I arrived in Finland, I had very little knowledge about computer. 
+            Life was fully organic and natural. I saw computer for the first time when I moved to capital city Kathmandu for higher secondory education.
+          </p>
+          <br />
+          <p>I came to Finland in 2010 for a study purpose. It was a dream come true for me. I was very happy to come here and enjoyed most of the things.
+            I completed my study in 2015. During this time, I worked very hard in physically demanding jobs, covering all of my expences and supporting family back home in Nepal. 
+            I decided to stay in Finland and continued working. I acheived some sort of financial satisfaction but I felt that something is missing.
+          </p>
+          <br />
+          <p>
+            I started remembering my old school days, teachers, and friends. I used to be a outstanding student of my class. People used to say that I will do something meaningful in future. 
+            What I was doing that time was not very meaningful. After that, many different thoughts started coming into my mind one after another. Finally, I decided to stop working too much and started studying IT from 2021. 
+          </p>
+          <br />
+          <p>
+            This time, I really enjoyed what I chose to study. I liked programming, web application development, and databases. I graduated in June 2024 with Lauri Fontell Scholorship for excellent academic performance. Currently, I am learning Python at Taitotalo.
+          </p>
+          <br />
+          <p>Software development is the field where I want to grow technically and professionally. 
+            It gives me both happiness and satisfaction. 
           </p>
         </div>
     </section>
