@@ -96,6 +96,19 @@ const Experience = () => {
           <li>
             <div className='flex-start flex items-center pt-3'>
               <div className='-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500'></div>
+              <h1 className='text-xl font-bold text-[#6D83F2]'>OK Palvelut Oy</h1>
+            </div>
+            <div className='mb-6 ml-4 mt-2'>
+              <button className='bg-gray-300 rounded-lg p-3'>Construction Cleaner | April 2011 - May 2011 | Helsinki, Finland</button>
+              <ul>
+                <li>-	Performed cleaning activities in newly constructed residential and commercial buildings.</li>
+              </ul>
+            </div>
+          </li>
+          {/* <!--Eighth item--> */}
+          <li>
+            <div className='flex-start flex items-center pt-3'>
+              <div className='-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500'></div>
               <h1 className='text-xl font-bold text-[#6D83F2]'>Helsingin Jakelu-Expert Oy</h1>
             </div>
             <div className='mb-6 ml-4 mt-2'>

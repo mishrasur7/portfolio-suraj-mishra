@@ -33,6 +33,21 @@ const Education = () => {
               </ul>
             </div>
           </li>
+          {/* <!--Third item--> */}
+           <li>
+            <div className='flex-start flex items-center pt-3'>
+              <div className='-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500'></div>
+              <h1 className='text-xl font-bold text-[#6D83F2]'>Arcada University of Applied Sciences</h1>
+            </div>
+            <div className='mb-6 ml-4 mt-2'>
+              <button className='bg-gray-300 rounded-lg p-3'>Bachelor of Engineering in Plastic Technology | Sep 2010 - Sep 2015 | Helsinki, Finland</button>
+              <ul>
+                <li>-	CAD, Master CAM, Composites, Mould Design, Mathematics, Physics, Material Analysis, Thermodynamics, Mechanics, Fluid Dynamics</li>
+                <li>-   GPA - 2.93</li>
+                <li>-   Study language - English</li>
+              </ul>
+            </div>
+          </li>
           
       </ol>
     </div>
