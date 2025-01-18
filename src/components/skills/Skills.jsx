@@ -16,6 +16,7 @@ const Skills = () => {
     'CSS',
     'Git',
     'SQL',
+    'Jira'
   ];
 
  return (
