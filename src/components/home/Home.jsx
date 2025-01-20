@@ -1,6 +1,6 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import CodeCard from "./CodeCard"
-import resume from '../../../public/assets/CV_mishra_suraj_software_developer.pdf'
+import resume from '../../../public/assets/CV_mishra_suraj.pdf'
 
 const Home = () => {
   return (
