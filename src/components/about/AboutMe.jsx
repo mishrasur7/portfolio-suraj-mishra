@@ -1,4 +1,4 @@
-import image from '../../assets/suraj.jpg';
+import image from '../../../public/assets/suraj.jpg';
 
 const AboutMe = () => {
   return (

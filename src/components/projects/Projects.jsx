@@ -1,6 +1,6 @@
-import siba from '../../assets/siba_login_view.png'
-import saas from '../../assets/saas.png'
-import trainers_house from '../../assets/trainers_house.png'
+import siba from '../../../public/assets/siba_login_view.png'
+import saas from '../../../public/assets/saas.png'
+import trainers_house from '../../../public/assets/trainers_house.png'
 
 const Projects = () => {
   const projectsList = [
