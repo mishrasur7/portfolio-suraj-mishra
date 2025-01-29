@@ -19,7 +19,7 @@ const AboutMe = () => {
           </p>
           <br />
           <p>
-            I started remembering my old school days, teachers, and friends. I used to be a outstanding student of my class. People used to say that I will do something meaningful in future. 
+            I started remembering my old school days, teachers, and friends. I used to be an outstanding student of my class. People used to say that I will do something meaningful in future. 
             What I was doing that time was not very meaningful. After that, many different thoughts started coming into my mind one after another. Finally, I decided to stop working too much and started studying IT from 2021. 
           </p>
           <br />
