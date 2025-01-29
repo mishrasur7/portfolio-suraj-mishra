@@ -47,7 +47,7 @@ const Projects = () => {
             <div 
             onClick={() => console.log('ooops')}
             key={project.id} 
-            className='flex-initial w-96 p-7 border-solid border-[#6D83F2] border-b-2 border-l-2 hover:cursor-pointer rounded-xl'>
+            className='flex-initial w-96 p-7 border-solid border-[#6D83F2] border-b-2 border-l-2 rounded-xl'>
               <img src={project.image} alt={project.title} className='w-72 h-36'/>
               <div className='text-[#6D83F2] mt-5'>
                 <h3 className='text-xl font-bold'>{project.title}</h3>
