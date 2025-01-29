@@ -11,7 +11,7 @@ const Education = () => {
               <h1 className='text-xl font-bold text-[#6D83F2]'>Taitotalo</h1>
             </div>
             <div className='mb-6 ml-4 mt-2'>
-              <button className='bg-gray-300 rounded-lg p-3'>Vocational course in Python Programming | Nov 2024 - June 2025 | Helsinki, Finland</button>
+              <div className='bg-gray-300 rounded-lg p-3'>Vocational course in Python Programming | Nov 2024 - June 2025 | Helsinki, Finland</div>
               <ul>
                 <li>-   Python programming, Git, Linux, Databases</li>
                 <li>-   Study language - Finnish</li>
@@ -25,7 +25,7 @@ const Education = () => {
               <h1 className='text-xl font-bold text-[#6D83F2]'>Haaga-Helia University of Applied Sciences</h1>
             </div>
             <div className='mb-6 ml-4 mt-2'>
-              <button className='bg-gray-300 rounded-lg p-3'>Bachelors Degree in Business Information Technology | Jan 2021 - June 2024 | Helsinki, Finland</button>
+              <div className='bg-gray-300 rounded-lg p-3'>Bachelors Degree in Business Information Technology | Jan 2021 - June 2024 | Helsinki, Finland</div>
               <ul>
                 <li>-	Major focus on programming, frontend development, backend development, database management and databases, UI/UX.</li>
                 <li>-   GPA - 4.69</li>
@@ -40,7 +40,7 @@ const Education = () => {
               <h1 className='text-xl font-bold text-[#6D83F2]'>Arcada University of Applied Sciences</h1>
             </div>
             <div className='mb-6 ml-4 mt-2'>
-              <button className='bg-gray-300 rounded-lg p-3'>Bachelor of Engineering in Plastic Technology | Sep 2010 - Sep 2015 | Helsinki, Finland</button>
+              <div className='bg-gray-300 rounded-lg p-3'>Bachelor of Engineering in Plastic Technology | Sep 2010 - Sep 2015 | Helsinki, Finland</div>
               <ul>
                 <li>-	CAD, Master CAM, Composites, Mould Design, Mathematics, Physics, Material Analysis, Thermodynamics, Mechanics, Fluid Dynamics</li>
                 <li>-   GPA - 2.93</li>
