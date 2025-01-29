@@ -34,9 +34,9 @@ const Projects = () => {
     },
   ]
 
-  const handleClick = (link) => {
-    window.location.href = link
-  }
+  // const handleClick = (link) => {
+  //   window.location.href = link
+  // }
 
   return (
     <div id='projects' className='mt-24 scroll-m-20'>
@@ -45,7 +45,7 @@ const Projects = () => {
         {projectsList.map((project) => {
           return (
             <div 
-            onClick={() => handleClick(project.liveLink)}
+            onClick={() => console.log('ooops')}
             key={project.id} 
             className='flex-initial w-96 p-7 border-solid border-[#6D83F2] border-b-2 border-l-2 hover:cursor-pointer rounded-xl'>
               <img src={project.image} alt={project.title} className='w-72 h-36'/>
