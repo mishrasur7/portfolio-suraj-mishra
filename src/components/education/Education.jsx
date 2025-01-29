@@ -25,7 +25,7 @@ const Education = () => {
               <h1 className='text-xl font-bold text-[#6D83F2]'>Haaga-Helia University of Applied Sciences</h1>
             </div>
             <div className='mb-6 ml-4 mt-2'>
-              <div className='bg-gray-300 rounded-lg p-3'>Bachelors Degree in Business Information Technology | Jan 2021 - June 2024 | Helsinki, Finland</div>
+              <div className='bg-gray-300 rounded-lg p-3'>Bachelor&apos;s Degree in Business Information Technology | Jan 2021 - June 2024 | Helsinki, Finland</div>
               <ul>
                 <li>-	Major focus on programming, frontend development, backend development, database management and databases, UI/UX.</li>
                 <li>-   GPA - 4.69</li>
