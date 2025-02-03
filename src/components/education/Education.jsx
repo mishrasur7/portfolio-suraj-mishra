@@ -14,7 +14,6 @@ const Education = () => {
               <div className='bg-gray-300 rounded-lg p-3'>Vocational course in Python Programming | Nov 2024 - June 2025 | Helsinki, Finland</div>
               <ul>
                 <li>-   Python programming, Git, Linux, Databases</li>
-                <li>-   Study language - Finnish</li>
               </ul>
             </div>
           </li>
@@ -29,7 +28,6 @@ const Education = () => {
               <ul>
                 <li>-	Major focus on programming, frontend development, backend development, database management and databases, UI/UX.</li>
                 <li>-   GPA - 4.69</li>
-                <li>-   Study language - English</li>
               </ul>
             </div>
           </li>
@@ -44,7 +42,6 @@ const Education = () => {
               <ul>
                 <li>-	CAD, Master CAM, Composites, Mould Design, Mathematics, Physics, Material Analysis, Thermodynamics, Mechanics, Fluid Dynamics</li>
                 <li>-   GPA - 2.93</li>
-                <li>-   Study language - English</li>
               </ul>
             </div>
           </li>
