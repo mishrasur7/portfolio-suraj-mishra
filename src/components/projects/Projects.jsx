@@ -1,6 +1,7 @@
 import siba from '../../../public/assets/siba_login_view.png'
 import saas from '../../../public/assets/saas.png'
 import trainers_house from '../../../public/assets/trainers_house.png'
+import eshop_web from '../../../public/assets/eshop-web.png'
 
 const Projects = () => {
   const projectsList = [
@@ -31,6 +32,15 @@ const Projects = () => {
       techStack: ['HTML', 'SCSS'],
       liveLink: 'https://strong-souffle-17c7a0.netlify.app/',
       github: ['https://github.com/mishrasur7/fs11-SASS/tree/sass']
+    },
+    {
+      id: 4, 
+      image: eshop_web, 
+      title: 'E-commerce Project', 
+      description: 'Project work at Taitotalo',
+      techStack: ['JavaScript', 'React', 'Bootstrap', 'Python', 'Django'],
+      liveLink: 'https://github.com/mishrasur7/eshop-web',
+      github: ['https://github.com/mishrasur7/eshop-web']
     },
   ]
 
