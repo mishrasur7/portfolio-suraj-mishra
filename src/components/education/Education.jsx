@@ -14,6 +14,7 @@ const Education = () => {
               <div className='bg-gray-300 rounded-lg p-3'>Vocational course in Python Programming | Nov 2024 - June 2025 | Helsinki, Finland</div>
               <ul>
                 <li>-   Python programming, Git, Linux, Databases</li>
+                <li>-   GPA - 4.0</li>
               </ul>
             </div>
           </li>
