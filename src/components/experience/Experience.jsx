@@ -4,11 +4,27 @@ const Experience = () => {
     <div id='experience' className='mt-24 scroll-m-20'>
         <h1 className='text-2xl text-center text-[#6D83F2] font-mono mb-10 '>Work Experience</h1>
          <ol className='border-l-2 mx-4 sm:mx-48'>
+          {/* <!--First item--> */}
+          <li>
+            <div className='flex-start flex items-center pt-3'>
+              <div className='-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500'></div>
+              <h1 className='text-xl font-bold text-[#6D83F2]'>Vesko</h1>
+            </div>
+            <div className='mb-6 ml-4 mt-2'>
+              <div className='bg-gray-300 rounded-lg p-3'>Web Developer | Sep 2024 - Dec 2024 | Helsinki, Finland</div>
+              <ul>
+                <li>-	Built 50+ components and layouts using React TypeScript.</li>
+                <li>-	Migrated 1000+ lines of code to a new maintainable codebase. </li>
+                <li>-	Redesigned layouts with Tailwind CSS, improving responsiveness by 15%. </li>
+
+              </ul>
+            </div>
+          </li>
           {/* <!--Second item--> */}
            <li>
             <div className='flex-start flex items-center pt-3'>
               <div className='-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500'></div>
-              <h1 className='text-xl font-bold text-[#6D83F2]'>Integrify Oy</h1>
+              <h1 className='text-xl font-bold text-[#6D83F2]'>Integrify</h1>
             </div>
             <div className='mb-6 ml-4 mt-2'>
               <div className='bg-gray-300 rounded-lg p-3'>Full Stack Developer Trainee | May 2022 - Oct 2022 | Helsinki, Finland</div>
