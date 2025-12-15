@@ -53,23 +53,6 @@ const Contact = () => {
             </a>
           ))}
         </div>
-
-        {/* CTA Section */}
-        <div className='mt-16 text-center'>
-          <div className='glass rounded-2xl p-8 max-w-2xl mx-auto'>
-            <h3 className='text-2xl font-bold text-white mb-4'>Let&apos;s Build Something Amazing</h3>
-            <p className='text-slate-400 mb-6'>
-              Whether you have a project in mind or just want to connect, I&apos;d love to hear from you.
-            </p>
-            <a
-              href='mailto:mishrasur7@gmail.com'
-              className='inline-flex items-center gap-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white px-8 py-3 rounded-full font-semibold hover:shadow-lg hover:shadow-indigo-500/30 transition-all duration-300 hover:-translate-y-1'
-            >
-              <HiMail className='w-5 h-5' />
-              Send me an email
-            </a>
-          </div>
-        </div>
       </div>
     </section>
   )

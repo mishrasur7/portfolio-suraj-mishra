@@ -2,6 +2,20 @@ import { HiBookOpen, HiLightBulb, HiChat } from 'react-icons/hi';
 
 const Books = () => {
   const books = [
+      {
+      title: 'Atomic Habits',
+      author: 'James Clear',
+      quote: 'You do not rise to the level of your goals. You fall to the level of your systems.',
+      insight: 'Small, consistent improvements compound over time to create remarkable results.',
+      color: 'from-emerald-400 to-teal-500',
+    },
+      {
+      title: 'Mayur Times',
+      author: 'Narayan Wagle',
+      quote: 'The city has its own rhythm, and we are all just trying to find our beat.',
+      insight: 'Urban life shapes our identities in unexpected ways, blending tradition with modernity.',
+      color: 'from-amber-400 to-orange-500',
+    },
     {
       title: 'Palpasa Cafe',
       author: 'Narayan Wagle',
@@ -10,25 +24,11 @@ const Books = () => {
       color: 'from-rose-400 to-pink-500',
     },
     {
-      title: 'Mayur Times',
-      author: 'Narayan Wagle',
-      quote: 'The city has its own rhythm, and we are all just trying to find our beat.',
-      insight: 'Urban life shapes our identities in unexpected ways, blending tradition with modernity.',
-      color: 'from-amber-400 to-orange-500',
-    },
-    {
       title: 'The Power of Habit',
       author: 'Charles Duhigg',
       quote: 'Change might not be fast and it isn\'t always easy. But with time and effort, almost any habit can be reshaped.',
       insight: 'Understanding the habit loop (cue, routine, reward) gives us the power to transform our behaviors.',
       color: 'from-cyan-400 to-blue-500',
-    },
-    {
-      title: 'Atomic Habits',
-      author: 'James Clear',
-      quote: 'You do not rise to the level of your goals. You fall to the level of your systems.',
-      insight: 'Small, consistent improvements compound over time to create remarkable results.',
-      color: 'from-emerald-400 to-teal-500',
     },
   ];
 
