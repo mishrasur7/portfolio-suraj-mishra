@@ -56,7 +56,7 @@ const Skills = () => {
       <div className='container mx-auto px-6'>
         <h2 className='text-4xl md:text-5xl font-bold text-center mb-6 gradient-text'>Skills & Technologies</h2>
         <p className='text-slate-400 text-center max-w-2xl mx-auto mb-16'>
-          Technologies and tools I use to bring ideas to life.
+          A growing toolkit of technologies I use to build intelligent, scalable solutions.
         </p>
 
         <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto'>
