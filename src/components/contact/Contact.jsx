@@ -1,5 +1,4 @@
 import { HiMail, HiPhone } from 'react-icons/hi';
-import { FaLinkedin } from 'react-icons/fa';
 
 const Contact = () => {
   const contactMethods = [
@@ -17,13 +16,6 @@ const Contact = () => {
       href: 'tel:+358440778001',
       color: 'from-green-400 to-emerald-500',
     },
-    {
-      icon: FaLinkedin,
-      label: 'LinkedIn',
-      value: 'surmishra',
-      href: 'https://www.linkedin.com/in/surmishra/',
-      color: 'from-blue-400 to-blue-600',
-    },
   ];
 
   return (
@@ -34,7 +26,7 @@ const Contact = () => {
           I&apos;m always open to discussing new opportunities, interesting projects, or just having a chat about technology and AI.
         </p>
 
-        <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto'>
+        <div className='grid sm:grid-cols-2 gap-6 max-w-2xl mx-auto'>
           {contactMethods.map((method, index) => (
             <a
               key={index}
