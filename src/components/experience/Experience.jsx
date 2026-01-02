@@ -10,9 +10,9 @@ const Experience = () => {
       current: true,
       description: 'Building AI-powered document intelligence systems',
       responsibilities: [
-        'Engineer and optimize Python-based workflows for document ingestion and retrieval, significantly improving system latency and relevance.',
-        'Enhanced retrieval accuracy by implementing advanced chunking strategies and fine-tuning vector search parameters.',
-        'Designed effective system prompts to ensure deterministic and accurate bot responses.',
+        'Developed Python scripts and n8n workflows to automate document ingestion for RAG systems, focusing on maintaining clean code and handling data edge cases.',
+        'Experimented with different chunking strategies and vector parameters to help the team improve the relevance of bot answers.',
+        'Designed and tested system prompts to ensure deterministic and accurate bot responses.',
         'Implemented Microsoft Adaptive Cards to render structured, interactive UI components within Microsoft Teams.',
       ],
       technologies: ['Python', 'RAG', 'Azure', 'LLMs', 'Vector DBs'],
@@ -41,7 +41,7 @@ const Experience = () => {
       responsibilities: [
         'Built full-stack applications using the MERN stack in an agile environment.',
         'Collaborated in an intensive 48-hour Hackathon to prototype a travel mode detection system designed to reward eco-friendly commuting.',
-        'Honed problem solving and debugging proficiency through complex coding assignments.',
+        'Completed 500+ hours of intensive coding bootcamp focusing on scalable web architectures.',
       ],
       technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
     },

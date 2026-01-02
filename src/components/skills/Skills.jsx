@@ -1,5 +1,5 @@
-import { SiJavascript, SiTypescript, SiPython, SiReact, SiNodedotjs, SiDjango, SiDocker, SiGit, SiMicrosoftazure, SiTailwindcss, SiExpress, } from 'react-icons/si';
-import { TbDatabase, TbBrain, TbMessageChatbot, TbSearch, TbVectorBezier2, TbCoffee } from 'react-icons/tb';
+import { SiJavascript, SiTypescript, SiPython, SiReact, SiNodedotjs, SiDjango, SiDocker, SiGit, SiMicrosoftazure, SiTailwindcss, SiOpenai, SiHuggingface, SiN8N } from 'react-icons/si';
+import { TbDatabase, TbBrain, TbCoffee, TbVectorBezier2 } from 'react-icons/tb';
 
 const Skills = () => {
   const skillCategories = [
@@ -20,21 +20,20 @@ const Skills = () => {
       color: 'from-indigo-400 to-purple-500',
       bgGlow: 'bg-indigo-500/20',
       skills: [
-        { name: 'LLMs', icon: TbBrain },
-        { name: 'RAG', icon: TbSearch },
-        { name: 'Vector DBs', icon: TbVectorBezier2 },
-        { name: 'Prompt Engineering', icon: TbMessageChatbot },
-        { name: 'Azure AI Search', icon: SiMicrosoftazure },
+        { name: 'OpenAI API', icon: SiOpenai },
+        { name: 'Claude API', icon: TbBrain },
+        { name: 'Hugging Face', icon: SiHuggingface },
+        { name: 'n8n (AI Workflows)', icon: SiN8N },
+        { name: 'Pinecone', icon: TbVectorBezier2 },
       ]
     },
     {
-      title: 'Frameworks',
+      title: 'Libraries',
       color: 'from-purple-400 to-pink-500',
       bgGlow: 'bg-purple-500/20',
       skills: [
         { name: 'React', icon: SiReact },
         { name: 'Node.js', icon: SiNodedotjs },
-        { name: 'Express', icon: SiExpress },
         { name: 'Django', icon: SiDjango },
         { name: 'Tailwind CSS', icon: SiTailwindcss },
       ]

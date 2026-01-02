@@ -1,4 +1,4 @@
-import image from '../../../public/assets/SURAJ MISHRA_MG_0136.jpg';
+import image from '../../assets/suraj.jpg';
 import { HiLocationMarker, HiCode, HiLightBulb, HiHeart, HiSparkles, HiChevronRight, HiTranslate } from 'react-icons/hi';
 
 const AboutMe = () => {
