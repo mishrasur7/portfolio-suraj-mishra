@@ -99,10 +99,11 @@ const AboutMe = () => {
                       Growing up in a remote village in Nepal, where life was defined by simplicity, I learned to value the organic side of living. Today, based in <span className='text-indigo-400 font-medium'>Helsinki</span>, I apply that grounded perspective to the digital world.
                     </p>
                     <p>
-                      I am a Software Developer focused on the intersection of <span className='text-indigo-400 font-medium'>Software Engineering</span> and <span className='text-purple-400 font-medium'>Generative AI</span>. Currently at KajoAI, I engineer and optimize systems using Python and RAG technology, bridging the gap between raw data and intelligent retrieval.
+                      I am a Software Developer with a strong interest in <span className='text-purple-400 font-medium'>Generative AI</span> and modern software practices. Currently at KajoAI, I work with Python and RAG technology to build efficient systems for data retrieval and intelligent search. I enjoy the challenge of turning complex data into useful, AI-driven solutions.
                     </p>
                     <p>
-                      My journey has taught me that technology is more than just code; it is a tool to create meaningful change. To maintain that focus, I make sure to step away from the screen and recharge by reading books or walking in the forest while listening to music. It keeps me grounded, clears my mind, and reminds me of the simple roots where I started.                    </p>
+                      My journey has taught me that technology is more than just code; it is a tool to create meaningful change. To maintain that focus, I make sure to step away from the screen and recharge by reading books or walking in the forest while listening to music. It keeps me grounded, clears my mind, and reminds me of the simple roots where I started.
+                    </p>
                   </div>
 
                   {/* Journey Highlights */}

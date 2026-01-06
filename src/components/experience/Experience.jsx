@@ -5,17 +5,17 @@ const Experience = () => {
     {
       company: 'KajoAI Oy',
       role: 'Software Developer',
-      period: 'Oct 2025 - Present',
+      period: 'Nov 2025 - Present',
       location: 'Helsinki, Finland',
       current: true,
       description: 'Building AI-powered document intelligence systems',
       responsibilities: [
-        'Developed Python scripts and n8n workflows to automate document ingestion for RAG systems, focusing on maintaining clean code and handling data edge cases.',
-        'Experimented with different chunking strategies and vector parameters to help the team improve the relevance of bot answers.',
-        'Designed and tested system prompts to ensure deterministic and accurate bot responses.',
+        'Contributed to the development of RAG-based system by implementing Python scripts and n8n workflows to automate document ingestion for high-volume data processing.',
+        'Optimized system performance by experimenting with chunking strategies and refining system prompts to improve the accuracy and reliability of bot responses.',
+        'Built and maintained full-stack features using TypeScript and React for the frontend and FastAPI for backend services, ensuring seamless integration with PostgreSQL databases.',
         'Implemented Microsoft Adaptive Cards to render structured, interactive UI components within Microsoft Teams.',
       ],
-      technologies: ['Python', 'RAG', 'Azure', 'LLMs', 'Vector DBs'],
+      technologies: ['Python', 'RAG', 'Azure', 'LLMs', 'Vector DBs', 'TypeScript', 'React', 'FastAPI', 'PostgreSQL' ],
     },
     {
       company: 'Vesko Oy',
@@ -25,7 +25,7 @@ const Experience = () => {
       current: false,
       description: 'Frontend architecture and component development',
       responsibilities: [
-        'Architected a library of 15+ reusable components using React/TypeScript, reducing development time for future features.',
+        'Developed and structured a library of 15+ reusable components using React/TypeScript, reducing development time for future features.',
         'Refactored legacy modules to modern standards, improving maintainability and reducing technical debt.',
         'Optimized responsive layouts with Tailwind CSS, improving user experiences across devices.',
       ],

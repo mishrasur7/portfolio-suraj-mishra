@@ -30,7 +30,6 @@ const Home = () => {
                 {/* Description */}
                 <p className='text-slate-400 max-w-2xl leading-relaxed'>
                     Building intelligent systems at the intersection of Software Engineering and Generative AI.
-                    Currently crafting RAG-powered solutions at KajoAI.
                 </p>
             </div>
         </div>

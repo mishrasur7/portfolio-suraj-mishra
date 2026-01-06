@@ -1,5 +1,5 @@
-import { SiJavascript, SiTypescript, SiPython, SiReact, SiNodedotjs, SiDjango, SiDocker, SiGit, SiMicrosoftazure, SiTailwindcss, SiOpenai, SiHuggingface, SiN8N } from 'react-icons/si';
-import { TbDatabase, TbBrain, TbCoffee, TbVectorBezier2 } from 'react-icons/tb';
+import { SiJavascript, SiTypescript, SiPython, SiReact, SiNodedotjs, SiDjango, SiFastapi, SiDocker, SiGit, SiMicrosoftazure, SiTailwindcss, SiOpenai, SiHuggingface, SiN8N, SiPostgresql } from 'react-icons/si';
+import { TbBrain, TbCoffee, TbVectorBezier2, TbArrowsTransferUp } from 'react-icons/tb';
 
 const Skills = () => {
   const skillCategories = [
@@ -12,7 +12,7 @@ const Skills = () => {
         { name: 'TypeScript', icon: SiTypescript },
         { name: 'Python', icon: SiPython },
         { name: 'Java', icon: TbCoffee },
-        { name: 'SQL', icon: TbDatabase },
+        { name: 'SQL/PostgreSQL', icon: SiPostgresql },
       ]
     },
     {
@@ -35,6 +35,7 @@ const Skills = () => {
         { name: 'React', icon: SiReact },
         { name: 'Node.js', icon: SiNodedotjs },
         { name: 'Django', icon: SiDjango },
+        { name: 'FastAPI', icon: SiFastapi },
         { name: 'Tailwind CSS', icon: SiTailwindcss },
       ]
     },
@@ -46,6 +47,7 @@ const Skills = () => {
         { name: 'Git', icon: SiGit },
         { name: 'Docker', icon: SiDocker },
         { name: 'Azure DevOps', icon: SiMicrosoftazure },
+        { name: 'Alembic', icon: TbArrowsTransferUp },
       ]
     },
   ];
